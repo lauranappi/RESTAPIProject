@@ -51,6 +51,6 @@ else { // se i dati sono incompleti
 	// creo un oggetto JSON costituito dalla coppia message: testo-del-messaggio
     // uso l’operatore ternario con empty() per evitare l’errore sulla stampa di un valore inesistente
     echo json_encode(array("message" => "Unable to create tavolo. Data is incomplete:"
-		 . " persone=" . (empty($data->persone) ? "null" : $data->persone) . " esterno=" . (empty($data->esterno) ? "null" : $data->esterno) . " disponibilita=" . (empty($data->disponibilita) ? "null" : $data->disponibilta)));
+		 . " persone=" . (empty($data->persone) ? "null" : $data->persone) . " esterno=" . (empty($data->esterno) ? "null" : $data->esterno) . " disponibilita=" . (empty($data->disponibilita) ? "null" : $data->disponibilita)));
 }
 ?>

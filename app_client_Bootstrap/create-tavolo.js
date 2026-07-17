@@ -20,7 +20,7 @@ $(document).ready(function() {
 					<!-- description field -->
 					<tr>
 						<td>Esterno</td>
-						<td>No<input type="radio" name='esterno' class='form-control form-check-input' value='0'>
+						<td>No<input type="radio" name='esterno' class='form-control form-check-input' value='0' checked>
 						Si<input type="radio" name='esterno' class='form-control form-check-input' value='1'></td>
 					</tr>
 
